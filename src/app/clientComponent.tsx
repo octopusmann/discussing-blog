@@ -9,7 +9,6 @@ interface ClientComponentProps {
 }
 
 export default function ClientComponent({ session }: ClientComponentProps) {
-  // Handle forms
   const handleSignIn = async () => {
     await actions.signIn();
   };
