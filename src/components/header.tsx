@@ -19,7 +19,7 @@ export default function Header() {
       </NavbarBrand>
       <NavbarContent justify="center">
         <NavbarItem>
-          <Input />
+          <Input placeholder="Search" />
         </NavbarItem>
       </NavbarContent>
 
